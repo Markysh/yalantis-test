@@ -1,4 +1,5 @@
 {
+  "homepage": "./build/index.html",
   "name": "yalantis-test",
   "version": "0.1.0",
   "private": true,
