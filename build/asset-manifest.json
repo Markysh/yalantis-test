@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/yalantis-test/build/static/css/main.9311cd49.chunk.css",
-    "main.js": "/yalantis-test/build/static/js/main.64b0582b.chunk.js",
-    "main.js.map": "/yalantis-test/build/static/js/main.64b0582b.chunk.js.map",
-    "runtime-main.js": "/yalantis-test/build/static/js/runtime-main.27f11742.js",
-    "runtime-main.js.map": "/yalantis-test/build/static/js/runtime-main.27f11742.js.map",
-    "static/js/2.9240e487.chunk.js": "/yalantis-test/build/static/js/2.9240e487.chunk.js",
-    "static/js/2.9240e487.chunk.js.map": "/yalantis-test/build/static/js/2.9240e487.chunk.js.map",
-    "static/js/3.1383242f.chunk.js": "/yalantis-test/build/static/js/3.1383242f.chunk.js",
-    "static/js/3.1383242f.chunk.js.map": "/yalantis-test/build/static/js/3.1383242f.chunk.js.map",
+    "main.css": "/yalantis-test/build/static/css/main.a45b9fa7.chunk.css",
+    "main.js": "/yalantis-test/build/static/js/main.35d0042e.chunk.js",
+    "main.js.map": "/yalantis-test/build/static/js/main.35d0042e.chunk.js.map",
+    "runtime-main.js": "/yalantis-test/build/static/js/runtime-main.dc3a0d69.js",
+    "runtime-main.js.map": "/yalantis-test/build/static/js/runtime-main.dc3a0d69.js.map",
+    "static/js/2.17ca7a8b.chunk.js": "/yalantis-test/build/static/js/2.17ca7a8b.chunk.js",
+    "static/js/2.17ca7a8b.chunk.js.map": "/yalantis-test/build/static/js/2.17ca7a8b.chunk.js.map",
+    "static/js/3.75ceee6c.chunk.js": "/yalantis-test/build/static/js/3.75ceee6c.chunk.js",
+    "static/js/3.75ceee6c.chunk.js.map": "/yalantis-test/build/static/js/3.75ceee6c.chunk.js.map",
     "index.html": "/yalantis-test/build/index.html",
-    "static/css/main.9311cd49.chunk.css.map": "/yalantis-test/build/static/css/main.9311cd49.chunk.css.map",
-    "static/js/2.9240e487.chunk.js.LICENSE.txt": "/yalantis-test/build/static/js/2.9240e487.chunk.js.LICENSE.txt"
+    "static/css/main.a45b9fa7.chunk.css.map": "/yalantis-test/build/static/css/main.a45b9fa7.chunk.css.map",
+    "static/js/2.17ca7a8b.chunk.js.LICENSE.txt": "/yalantis-test/build/static/js/2.17ca7a8b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.27f11742.js",
-    "static/js/2.9240e487.chunk.js",
-    "static/css/main.9311cd49.chunk.css",
-    "static/js/main.64b0582b.chunk.js"
+    "static/js/runtime-main.dc3a0d69.js",
+    "static/js/2.17ca7a8b.chunk.js",
+    "static/css/main.a45b9fa7.chunk.css",
+    "static/js/main.35d0042e.chunk.js"
   ]
 }
