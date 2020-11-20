@@ -1,4 +1,3 @@
-import { mainModule } from "process";
 import React from "react";
 import styles from "./emloyees.module.scss";
 
@@ -7,111 +6,189 @@ export const UserList = () => {
     <div className={styles.mainContainer}>
       <h1>Employees</h1>
       <div className={styles.container}>
-      <div className={styles.section}>
-        <div>A</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>B</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>C</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>D</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>E</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>F</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>G</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>H</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>I</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>J</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>K</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>L</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>M</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>N</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>O</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>P</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>Q</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>R</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>S</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>T</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>U</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>V</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>W</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>X</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>Y</div>
-        <div>Ivan Ivanov</div>
-      </div>
-      <div className={styles.section}>
-        <div>Z</div>
-        <div>Ivan Ivanov</div>
-      </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>A</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>B</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>C</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>D</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>E</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>F</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>G</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>H</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>I</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>J</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>K</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>L</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>M</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>N</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>O</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>P</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>Q</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>R</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>S</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>T</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>U</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>V</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>W</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>X</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>Y</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionLetter}>Z</div>
+          <div className={styles.sectionName}>
+            <div>Ivan Ivanov</div>
+            <input type="checkbox" />
+          </div>
+        </div>
       </div>
     </div>
   );
-}
+};

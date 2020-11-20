@@ -5,11 +5,10 @@ export const BirthdayList = () => {
   return (
     <div className={styles.mainContainer}>
       <h1>Employees Birthday</h1>
-      <div>March</div>
+      <div className={styles.month}>March</div>
       <div className={styles.section}>
-        <div>Ivan Ivanov - </div>
-        <div>30 March, </div>
-        <div>1995 year</div>
+        <div className={styles.sectionName}>Ivan Ivanov -</div>
+        <div>30 March, 1995 year</div>
       </div>
     </div>
   );
