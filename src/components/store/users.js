@@ -16,9 +16,10 @@ export function usersReducer(store = initialState, { type, payload }) {
   }
 }
 
-export const getUsers = async () => {
+export const getUsers = () => async (dispatch) => {
   const responce = await fetch(
     `https://yalantis-react-school-api.yalantis.com/api/task0/users`
   );
   const result = await responce.json();
+  dispatch(setUsers(result));
 };
