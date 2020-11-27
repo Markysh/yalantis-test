@@ -1,6 +1,6 @@
 # GitHub Page
 
-[https://markysh.github.io/yalantis-test/build/]
+https://markysh.github.io/yalantis-test/build/
 
 # Getting Started with Create React App
 
