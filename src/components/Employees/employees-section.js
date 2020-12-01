@@ -13,7 +13,7 @@ export const EmployeesSection = (props) => {
       return user.lastName[0].toLowerCase() === char.toLowerCase();
     })
     .map((user) => {
-      return <User user={user} />;
+      return <User user={user} key={user.id} />;
     });
 
   return (
