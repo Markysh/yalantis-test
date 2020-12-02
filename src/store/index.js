@@ -13,3 +13,8 @@ export const store = createStore(
   rootReducer,
   composeWithDevTools(applyMiddleware(thunk))
 );
+
+store.subscribe(() => {
+  const selectedUsers = store.getState().selectedUsers;
+  localStorage.setItem("selectedUsers", JSON.stringify(selectedUsers));
+});

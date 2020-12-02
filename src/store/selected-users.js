@@ -11,14 +11,21 @@ export const removeUserAction = (payload) => ({
   payload,
 });
 
-const initialState = [];
+const storedUsers = JSON.parse(localStorage.getItem("selectedUsers"));
+const initialState = storedUsers || [];
 
 export function selectUserReducer(store = initialState, { type, payload }) {
   switch (type) {
     case SELECT_USER:
       return [...store, payload];
     case REMOVE_USER:
-      const index = store.indexOf(payload);
+      let index = -1;
+      for (let i = 0; i < store.length; i++) {
+        if (payload.id === store[i].id) {
+          index = i;
+          break;
+        }
+      }
       return [...store.slice(0, index), ...store.slice(index + 1)];
     default:
       return store;
