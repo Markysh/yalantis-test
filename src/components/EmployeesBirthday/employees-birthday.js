@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./employees-birthday.module.scss";
 import { useSelector } from "react-redux";
-import { DateOfBirthday } from "./date-of-birthday";
+import { DateOfBirthday } from "../EmployeesBirthday/DateOfBirthday/date-of-birthday";
 import groupByMonthes from "../../utils/group-by-month";
 
 export const BirthdayList = () => {

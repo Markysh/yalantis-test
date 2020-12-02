@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./emloyees.module.scss";
+import styles from "../emloyees.module.scss";
 import { useDispatch, useSelector } from "react-redux";
-import { selectUser, removeUser } from "../../store/selected-users";
+import { selectUser, removeUser } from "../../../store/selected-users";
 
 export const User = (props) => {
   const user = props.user;
@@ -13,7 +13,6 @@ export const User = (props) => {
   });
 
   const onChange = (event) => {
-    console.log(event.target.checked);
     if (event.target.checked) {
       dispatch(selectUser(user));
     } else {

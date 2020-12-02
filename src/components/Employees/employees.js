@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./emloyees.module.scss";
-import { EmployeesSection } from "./employees-section";
+import { EmployeesSection } from "../Employees/EmployeesSection/employees-section";
 
 const alphabet = "abcdefghijklmnopqrstuvwxyz";
 

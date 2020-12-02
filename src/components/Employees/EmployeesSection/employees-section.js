@@ -1,9 +1,7 @@
 import React from "react";
-import styles from "./emloyees.module.scss";
+import styles from "../emloyees.module.scss";
 import { useSelector } from "react-redux";
-import { User } from "./user";
-
-const alphabet = "abcdefghijklmnopqrstuvwxyz";
+import { User } from "../User/user";
 
 export const EmployeesSection = (props) => {
   const char = props.char;
@@ -13,13 +11,19 @@ export const EmployeesSection = (props) => {
       return user.lastName[0].toLowerCase() === char.toLowerCase();
     })
     .map((user) => {
-      return <User user={user} key={user.id} />;
+      return <User data-testid="user" user={user} key={user.id} />;
     });
 
   return (
     <div className={styles.section} key={char}>
-      <div className={styles.sectionLetter}>{char.toUpperCase()}</div>
-      {filteredUsers.length === 0 ? "---" : filteredUsers}
+      <div data-testid="char" className={styles.sectionLetter}>
+        {char.toUpperCase()}
+      </div>
+      {filteredUsers.length === 0 ? (
+        <div data-testid="empty">---</div>
+      ) : (
+        filteredUsers
+      )}
     </div>
   );
 };
