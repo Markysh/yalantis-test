@@ -1,5 +1,5 @@
 import React from "react";
-import { monthArray } from "../../constants";
+import { monthArray } from "../../../constants";
 
 export const DateOfBirthday = (props) => {
   const dob = new Date(props.date);
